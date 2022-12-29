@@ -5,7 +5,7 @@ load_dotenv()
 
 API_ID = os.getenv("API_ID", "13673662").strip()
 API_HASH = os.getenv("API_HASH", "90a8ca652259ec84f9ab4afdc7e3846e").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "5969738844:AAEOdyKyEHeVbbhBdOJfBkEKaf1AVpOckC8").strip()
 OWNER_ID = list(map(int, os.getenv("OWNER_ID", "5144413993").split()))
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://amritsinghbaba01:1998@cluster0.3tacgfj.mongodb.net/?retryWrites=true&w=majority").strip()
 MUST_JOIN = os.getenv("MUST_JOIN", "arbackup1")
